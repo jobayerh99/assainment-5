@@ -30,7 +30,7 @@
         </section>
         <!-- banner section -->
         <section
-            class="bg-[url(images/banner.png)] min-h-screen bg-no-repeat bg-center flex flex-col justify-center items-center gap-6">
+            class="bg-[url(images/banner.png)] aspect-video container bg-cover rounded-3xl mx-auto bg-no-repeat bg-center flex flex-col justify-center items-center gap-6 mt-8 mb-12">
             <h1 class="font-extrabold text-3xl text-white font-raleway text-center">End-to-End Travel with <br> <span
                     class="text-[#1DD100]">Green-line Corporation</span></h1>
             <p class="text-xl font-normal text-white text-center">Experience reliable and efficient bus services with
@@ -43,7 +43,7 @@
         <!-- offer section -->
         <section class="pb-10">
             <h1 class="font-raleway font-bold text-4xl text-[#030712] text-center pb-8">Best offers for you</h1>
-            <div class="flex flex-row justify-center items-center gap-10 sm:flex flex-col">
+            <div class="flex lg:flex-row sm:flex flex-col justify-center items-center gap-10 ">
                 <div class="card lg:w-1/3 sm:w-1/2 bg-[#FFBF0F] shadow-xl flex flex-row text-center items-center">
                     <div class="card-body">
                         <p><span class="font-extrabold text-4xl text-[#030712CC]">15% OFF</span> <br>
@@ -57,7 +57,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card lg:w-1/3 lg:w-1/3 sm:w-1/2 bg-[#F78C9C] shadow-xl flex flex-row text-center items-center">
+                <div class="card lg:w-1/3 sm:w-1/2 bg-[#F78C9C] shadow-xl flex flex-row text-center items-center">
                     <div class="card-body">
                         <p><span class="font-extrabold text-4xl text-[#030712CC]">20% OFF</span> <br>
                             <span class="font-semibold text-3xl font-[#030712CC]">on your next purchase</span><br>
@@ -71,15 +71,73 @@
                     </div>
                 </div>
             </div>
-            <button class=" btn btn-wide border-[#1DD100] font-raleway font-bold text-xl text-[#1DD100] bg-white">See
-                All Offers</button>
+            <div class="flex justify-center items-center pt-8">
+                <button
+                    class=" btn btn-wide border-[#1DD100] font-raleway font-bold text-xl text-[#1DD100] bg-white">See
+                    All Offers</button>
+            </div>
         </section>
     </header>
 
-    <main>
+    <main class="bg-[#F7F8F8] bg-cover">
         <!-- route section -->
-        <section>
+        <section class="min-h-screen border-t-2 border-[#1DD100] rounded-[88px]">
+            <div class="text-center mt-32 mb-12 gap-6">
+                <h1 class="font-raleway font-bold text-4xl text-[#030712]">Green-line Corporation</h1>
+                <p class="font-normal text-xs text-[#03071299]">Experience reliable and efficient bus services with
+                    us. We're committed to providing fast, <br> safe, and affordable travel options that connect
+                    communities
+                    daily.</p>
+            </div>
+            <div class="bg-white m-8 rounded-3xl max-w-6xl flex justify-center items-center">
+                <div class="flex ">
+                    <div class="bg-[#F7F8F8] rounded-lg m-8 gap-14">
 
+                        <div class="flex gap-4 justify-between bg-white pb-6">
+                            <div class="flex">
+                                <img src="images/bus-logo.png" alt="">
+                                <div>
+                                    <h4 class="font-raleway font-bold text-3xl text-[#030712]">Green-line
+                                        Corporation</h4>
+                                    <p class="text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <button
+                                    class="btn btn-wide  text-xl text-[#1DD100] font-bold bg-[#1DD1001A] border-[##1DD10066]"><img
+                                        src="images/seat-green.png" alt=""> <span>40</span> Seats left</button>
+                            </div>
+                        </div>
+
+                        <div class="m-3 rounded-xl ">
+                            <div class="flex justify-between font-raleway font-semibold pb-36 ">
+                                <div class="text-[#03071299]">
+                                    <p class="mb-10">Route</p>
+                                    <p>Departure Time</p>
+                                </div>
+                                <div class="text-[#030712] gap-12">
+                                    <p class="mb-10">Dhaka - Sylhet</p>
+                                    <p>9.00 PM</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <button class="btn btn-wide bg-[#0307120D]">Boarding Point - Laxmipur</button>
+                                <button class="btn btn-wide bg-[#0307120D]">Dropping Point - Bogura</button>
+                                <button class="btn btn-wide bg-[#0307120D]">Est. Time - 11 Hour</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="images/info-devider.png" alt="">
+                    <div class="bg-white font-raleway flex justify-center items-center">
+                        <div>
+                            <img src="images/fare.png" alt="">
+                            <p><span class="font-bold text-3xl text-[#030712]">550 Taka</span> <br>
+                                <span class="font-semibold text-xl text-[#03071299]">Per Seat</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- seat selection -->
         <section>
