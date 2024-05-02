@@ -90,11 +90,11 @@
                     communities
                     daily.</p>
             </div>
-            <div class="bg-white m-8 rounded-3xl max-w-6xl flex justify-center items-center w-[90%] mx-auto">
-                <div class="flex ">
+            <div class="bg-white m-8 rounded-3xl lg:w-[90%] mx-auto">
+                <div class="flex sm:flex flex-col">
                     <div class="bg-[#F7F8F8] rounded-lg m-8 gap-14">
 
-                        <div class="flex gap-4 justify-between bg-white pb-6">
+                        <div class="flex gap-4 justify-between bg-white pb-6 sm:flex flex-col">
                             <div class="flex">
                                 <img src="images/bus-logo.png" alt="">
                                 <div>
@@ -111,7 +111,7 @@
                         </div>
 
                         <div class="m-3 rounded-xl ">
-                            <div class="flex justify-between font-raleway font-semibold pb-36 ">
+                            <div class="flex justify-between font-raleway font-semibold pb-10 ">
                                 <div class="text-[#03071299]">
                                     <p class="mb-10">Route</p>
                                     <p>Departure Time</p>
@@ -121,14 +121,14 @@
                                     <p>9.00 PM</p>
                                 </div>
                             </div>
-                            <div class="flex justify-around">
-                                <button class="btn btn-wide bg-[#0307120D]">Boarding Point - Laxmipur</button>
-                                <button class="btn btn-wide bg-[#0307120D]">Dropping Point - Bogura</button>
-                                <button class="btn btn-wide bg-[#0307120D]">Est. Time - 11 Hour</button>
+                            <div class="flex justify-around font-inter sm:flex flex-col gap-3">
+                                <p class="font-medium text-[#030712CC] bg-[#0307120D] p-4 rounded-lg">Boarding Point - Laxmipur</p>
+                                <p class="font-medium text-[#030712CC] bg-[#0307120D] p-4 rounded-lg">Dropping Point - Bogura</p>
+                                <p class="font-medium text-[#030712CC] bg-[#0307120D] p-4 rounded-lg">Est. Time - 11 Hour</p>
                             </div>
                         </div>
                     </div>
-                    <img src="images/info-devider.png" alt="">
+                    <img class="sm:invisible" src="images/info-devider.png" alt="">
                     <div class="bg-white font-raleway flex justify-center items-center">
                         <div>
                             <img src="images/fare.png" alt="">
@@ -142,8 +142,9 @@
         </section>
         <!-- seat selection -->
         <section>
-            <div class="flex justify-between min-h-screen  bg-white rounded-3xl p-8 border-2 border-red-500 w-[80%] mx-auto">
-                <div class="w-[70%] mx-auto border-2 border-green-500">
+            <div
+                class="flex lg:justify-between sm:flex flex-col min-h-screen  bg-white rounded-3xl lg:p-8 w-[90%] mx-auto ">
+                <div class="lg:w-[70%] mx-auto ">
                     <h4 class="font-raleway text-2xl font-semibold text-black mb-9">Select Your Seats</h4>
                     <div class="flex justify-between w-full  font-inter">
                         <div class="flex">
@@ -171,112 +172,115 @@
                         <p class="font-medium text-xl text-[#03071280]">I</p>
                         <p class="font-medium text-xl text-[#03071280]">J</p>
                         <input type="checkbox" aria-label="A1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="B1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="C1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="D1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="E1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="F1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="G1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="H1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="I1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="J1"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="A2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="B2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="C2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="D2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="E2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="F2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="G2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="H2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="I2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="J2"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="A3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="B3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="C3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="D3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="E3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="F3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="G3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="H3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="I3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="J3"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="A4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="B4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="C4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="D4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="E4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="F4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="G4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="H4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="I4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="J4"
-                            class="btn w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                     </div>
                 </div>
-                <div class="w-[30%] mx-auto border-2 border-green-500">
+                <div class=" lg:w-[30%] mx-auto">
                     <h4 class="font-raleway text-2xl font-semibold text-black pb-12">Select Your Seat</h4>
                     <div>
-                        <div class=" bg-[#F7F8F8] rounded-xl p-8 font-inter ">
-                            <div class="flex justify-around gap-32">
-                                <p class="font-medium text-[#030712]">Seat <span class="bg-[#1DD100] rounded p-1">2</span></p>
+                        <div class=" bg-[#F7F8F8] rounded-xl p-8 font-inter pb-6">
+                            <div class="flex justify-around lg:gap-32 pb-8">
+                                <p class="font-medium text-[#030712]">Seat <span
+                                        class="bg-[#1DD100] rounded p-1">2</span></p>
                                 <p class="font-medium text-[#030712]">Class</p>
                                 <p class="font-medium text-[#030712]">Price</p>
                             </div>
-                            <div class="flex justify-around gap-32">
+                            <div class="flex justify-around lg:gap-32 pb-4">
                                 <p class="font-normal text-[#03071299]">C2</p>
                                 <p class="font-normal text-[#03071299]">Economoy</p>
                                 <p class="font-normal text-[#03071299]">550</p>
                             </div>
-                            <div class="flex justify-around gap-32">
+                            <div class="flex justify-around lg:gap-32 pb-8">
                                 <p class="font-normal text-[#03071299]">C2</p>
                                 <p class="font-normal text-[#03071299]">Economoy</p>
                                 <p class="font-normal text-[#03071299]">550</p>
                             </div>
-                            <div class="flex justify-between">
+                            <div class="flex justify-between pb-4">
                                 <p class="font-medium text-[#030712]">Total Price</p>
-                                <p class="font-medium text-[#030712]">BDT <span class="font-medium text-[#030712]">1100</span></p>
+                                <p class="font-medium text-[#030712]">BDT <span
+                                        class="font-medium text-[#030712]">1100</span></p>
                             </div>
-                            <div class="flex ">
-                                <input class="bg-white rounded-xl p-2 w-full " placeholder="Have any copupon?" type="text" >
+                            <div class="flex pb-6">
+                                <input class="bg-white rounded-xl p-2 w-full " placeholder="Have any copupon?"
+                                    type="text">
                                 <button class="btn bg-[#1DD100] text-white">Apply</button>
                             </div>
                             <div class="flex justify-between">
@@ -284,19 +288,24 @@
                                 <p class="font-medium text-[#030712]">BDT 1100</p>
                             </div>
                         </div>
-                        <h4 class="font-semibold text-[#030712]">Passenger Name*</h4>
-                        <input class="text-[#03071266] border border-[#0307121A] p-6 w-full h-16 rounded-xl" type="text" placeholder="Enter your name">
+                        <h4 class="font-semibold text-[#030712] mt-6 mb-4">Passenger Name*</h4>
+                        <input class="text-[#03071266] border border-[#0307121A] p-6 w-full h-16 rounded-xl" type="text"
+                            placeholder="Enter your name">
 
-                        <h4 class="font-semibold text-[#030712]">Phone Number*</h4>
-                        <input class="text-[#03071266] border border-[#0307121A] p-6 w-full h-16 rounded-xl" type="number" placeholder="Enter your phone number">
+                        <h4 class="font-semibold text-[#030712] mt-6 mb-4">Phone Number*</h4>
+                        <input class="text-[#03071266] border border-[#0307121A] p-6 w-full h-16 rounded-xl"
+                            type="number" placeholder="Enter your phone number">
 
-                        <h4 class="font-semibold text-[#030712]">Email ID</h4>
-                        <input class="text-[#03071266] border border-[#0307121A] p-6 w-full h-16 rounded-xl" type="email" placeholder="Enter your phone number">
-                         <br>
-                        <button class="btn btn-wide bg-[#1DD100] text-white w-full">Next</button>
-                        <div>
-                            <a class="font-normal text-[#03071299] underline-offset-1" href="">Terms and Conditions</a>
-                            <a class="font-normal text-[#03071299] underline-offset-1" href="">Cancellation Policy</a>
+                        <h4 class="font-semibold text-[#030712] mt-6 mb-4">Email ID</h4>
+                        <input class="text-[#03071266] border border-[#0307121A] p-6 w-full h-16 rounded-xl"
+                            type="email" placeholder="Enter your phone number">
+                        <br>
+                        <button class="btn btn-wide bg-[#1DD100] text-white w-full mt-4 mb-4 ">Next</button>
+                        <div class="flex justify-between">
+                            <a class="font-normal text-[#03071299] underline underline-offset-4" href="">Terms and
+                                Conditions</a>
+                            <a class="font-normal text-[#03071299] underline underline-offset-4" href="">Cancellation
+                                Policy</a>
                         </div>
                     </div>
                 </div>
