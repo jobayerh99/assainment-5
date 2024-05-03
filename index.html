@@ -29,20 +29,20 @@
             </div>
         </section>
         <!-- banner section -->
-        <section
-            class="bg-[url(images/banner.png)] aspect-video container bg-cover rounded-3xl mx-auto bg-no-repeat bg-center flex flex-col justify-center items-center gap-6 mt-8 mb-12">
+        <section id="home-section"
+            class="bg-[url(images/banner.png)] aspect-video container bg-cover rounded-3xl mx-auto bg-no-repeat bg-center flex flex-col justify-center items-center gap-6 mt-8 mb-12 ">
             <h1 class="font-extrabold text-3xl text-white font-raleway text-center">End-to-End Travel with <br> <span
                     class="text-[#1DD100]">Green-line Corporation</span></h1>
             <p class="text-xl font-normal text-white text-center">Experience reliable and efficient bus services with
                 us. We're committed to providing fast, <br> safe, and affordable travel options that connect communities
                 daily. </p>
-            <button
+            <button onclick="ticket()"
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg font-raleway text-black bg-[#1DD100] font-bold text-xl">Buy
                 Tickets
             </button>
         </section>
         <!-- offer section -->
-        <section class="pb-10">
+        <section id="offer-section" class="pb-10 ">
             <h1 class="font-raleway font-bold text-4xl text-[#030712] text-center pb-8">Best offers for you</h1>
             <div class="flex lg:flex-row sm:flex flex-col justify-center items-center gap-10 ">
                 <div class="card lg:w-1/3 sm:w-1/2 bg-[#FFBF0F] shadow-xl flex flex-row text-center items-center">
@@ -80,7 +80,7 @@
         </section>
     </header>
 
-    <main class="bg-[#F7F8F8] bg-cover">
+    <main id="ticket-section" class="bg-[#F7F8F8] bg-cover hidden">
         <!-- route section -->
         <section class="min-h-screen border-t-2 border-[#1DD100] rounded-[88px]">
             <div class="text-center mt-32 mb-12 gap-6">
@@ -91,10 +91,10 @@
                     daily.</p>
             </div>
             <div class="bg-white m-8 rounded-3xl lg:w-[60%] mx-auto">
-                <div class="flex ">
+                <div class="lg:flex ">
                     <div class="bg-[#F7F8F8] rounded-lg m-8 gap-14">
 
-                        <div class="flex gap-4 justify-between bg-white pb-6 ">
+                        <div class="lg:flex gap-4 lg:justify-between bg-white pb-6 ">
                             <div class="flex">
                                 <img src="images/bus-logo.png" alt="">
                                 <div>
@@ -121,7 +121,7 @@
                                     <p>9.00 PM</p>
                                 </div>
                             </div>
-                            <div class="flex justify-around font-inter  gap-3">
+                            <div class="lg:flex lg:justify-around  font-inter  gap-3">
                                 <p class="font-medium text-[#030712CC] bg-[#0307120D] p-4 rounded-lg">Boarding Point -
                                     Laxmipur</p>
                                 <p class="font-medium text-[#030712CC] bg-[#0307120D] p-4 rounded-lg">Dropping Point -
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <img class="" src="images/info-devider.png" alt="">
+                    <img class="hidden lg:block" src="images/info-devider.png" alt="">
                     <div class="bg-white font-raleway flex justify-center items-center">
                         <div>
                             <img src="images/fare.png" alt="">
@@ -146,7 +146,7 @@
         <!-- seat selection -->
         <section>
             <div
-                class="flex lg:justify-between min-h-screen  bg-white rounded-3xl lg:p-8 w-[80%] mx-auto ">
+                class="lg:flex lg:justify-between min-h-screen  bg-white rounded-3xl lg:p-8 w-[80%] mx-auto ">
                 <div class="lg:w-[70%] mx-auto ">
                     <h4 class="font-raleway text-2xl font-semibold text-black mb-9">Select Your Seats</h4>
                     <div class="flex justify-around w-full  font-inter">
@@ -317,7 +317,7 @@
     </main>
 
     <footer>
-        <footer class="footer p-10 bg-neutral text-neutral-content flex justify-center justify-evenly">
+        <footer class="footer p-10 bg-neutral text-neutral-content lg:flex lg:justify-center lg:justify-evenly">
             <aside>
                 <p class="font-raleway font-extrabold text-3xl text-white">Green-line Corporaton</p>
                 <p>Traveling with Green-Line Corporation <br> gives you pleasure and comfort.</p>
@@ -340,6 +340,8 @@
             </aside>
         </footer>
     </footer>
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
