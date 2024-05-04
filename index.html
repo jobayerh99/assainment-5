@@ -36,7 +36,7 @@
             <p class="text-xl font-normal text-white text-center">Experience reliable and efficient bus services with
                 us. We're committed to providing fast, <br> safe, and affordable travel options that connect communities
                 daily. </p>
-            <button onclick="ticket()"
+            <button onclick="scrollDown(0, 2100)"
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg font-raleway text-black bg-[#1DD100] font-bold text-xl">Buy
                 Tickets
             </button>
@@ -80,7 +80,7 @@
         </section>
     </header>
 
-    <main id="ticket-section" class="bg-[#F7F8F8] bg-cover hidden">
+    <main id="ticket-section" class="bg-[#F7F8F8] bg-cover ">
         <!-- route section -->
         <section class="min-h-screen border-t-2 border-[#1DD100] rounded-[88px]">
             <div class="text-center mt-32 mb-12 gap-6">
@@ -174,8 +174,8 @@
                         <p class="font-medium text-xl text-[#03071280]">H</p>
                         <p class="font-medium text-xl text-[#03071280]">I</p>
                         <p class="font-medium text-xl text-[#03071280]">J</p>
-                        <input type="checkbox" aria-label="A1"
-                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
+                        <input id="A1" onclick="seatClicked()" type="checkbox" aria-label="A1"
+                            class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100]" />
                         <input type="checkbox" aria-label="B1"
                             class="btn lg:w-28 text-[#03071280] font-medium text-xl active:bg-[#1DD100] bg-[#F7F8F8]" />
                         <input type="checkbox" aria-label="C1"
