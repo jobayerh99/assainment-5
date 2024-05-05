@@ -8,13 +8,13 @@ function showElementById(elementId){
     element.classList.remove('hidden');
 }
 
-// function setColor(){
-//     const color = document.getElementById('A1');
-//     color.addEventListener('click', function() {
-//         if(color.checked){
-//             color.classList.add('bg-[#1DD100]');
-//         }else{
-//             color.classList.remove('bg-[#1DD100]');
-//         }
-//     })
-// }
+function textValue(elementId){
+    let value = document.getElementById(elementId).innerText;
+    const addList = document.getElementById('seat-number');
+    addList.innerText = value;
+    const classOf = document.getElementById('seat-quality');
+    classOf.innerText = 'Economy';
+    const price = document.getElementById('seat-price');
+    price.innerText = '550';
+}
+

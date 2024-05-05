@@ -174,7 +174,7 @@
                         <p class="font-medium text-xl text-[#03071280]">H</p>
                         <p class="font-medium text-xl text-[#03071280]">I</p>
                         <p class="font-medium text-xl text-[#03071280]">J</p>
-                        <button id="A1" class="btn  lg:w-28 font-medium text-xl text-[#03071280] bg-[#F7F8F8]">A1</button>
+                        <button id="A1" onclick="seatClicked('A1')" class="btn  lg:w-28 font-medium text-xl text-[#03071280] bg-[#F7F8F8]">A1</button>
                         <button id="B1" class="btn  lg:w-28 font-medium text-xl text-[#03071280] bg-[#F7F8F8]">B1</button>
                         <button id="C1" class="btn  lg:w-28 font-medium text-xl text-[#03071280] bg-[#F7F8F8]">C1</button>
                         <button id="D1" class="btn  lg:w-28 font-medium text-xl text-[#03071280] bg-[#F7F8F8]">D1</button>
@@ -228,9 +228,9 @@
                                 <p class="font-medium text-[#030712]">Price</p>
                             </div>
                             <div class="flex justify-around lg:gap-32 pb-4">
-                                <p class="font-normal text-[#03071299]">C2</p>
-                                <p class="font-normal text-[#03071299]">Economoy</p>
-                                <p class="font-normal text-[#03071299]">550</p>
+                                <p id="seat-number" class="font-normal text-[#03071299]"></p>
+                                <p id="seat-quality" class="font-normal text-[#03071299]"></p>
+                                <p id="seat-price" class="font-normal text-[#03071299]"></p>
                             </div>
                             <div class="flex justify-around lg:gap-32 pb-8">
                                 <p class="font-normal text-[#03071299]">C2</p>
